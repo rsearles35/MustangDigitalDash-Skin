@@ -71,11 +71,11 @@ AntiAlias=1
 Meter=Shape
 UpdateDivider=-1
 ;line shadows
-Shape=Line #TachCenterX#,(20*#ScaleY#),(1500*#ScaleX#),(20*#ScaleY#) | Extend GaugeOutlineShadowModifiers
-Shape2=Line #TachCenterX#,(140*#ScaleY#),(1400*#ScaleX#),(140*#ScaleY#) | Extend GaugeOutlineShadowModifiers
+Shape=Line (#TachCenterX#-1),(20*#ScaleY#),(1500*#ScaleX#),(20*#ScaleY#) | Extend GaugeOutlineShadowModifiers
+Shape2=Line (#TachCenterX#-1),(140*#ScaleY#),(1400*#ScaleX#),(140*#ScaleY#) | Extend GaugeOutlineShadowModifiers
 ;lines
-Shape3=Line #TachCenterX#,(20*#ScaleY#),(1500*#ScaleX#),(20*#ScaleY#) | Extend GaugeOutlineLineModifiers
-Shape4=Line #TachCenterX#,(140*#ScaleY#),(1400*#ScaleX#),(140*#ScaleY#) | Extend GaugeOutlineLineModifiers
+Shape3=Line (#TachCenterX#-1),(20*#ScaleY#),(1500*#ScaleX#),(20*#ScaleY#) | Extend GaugeOutlineLineModifiers
+Shape4=Line (#TachCenterX#-1),(140*#ScaleY#),(1400*#ScaleX#),(140*#ScaleY#) | Extend GaugeOutlineLineModifiers
 ; line styles
 GaugeOutlineLineModifiers= StrokeWidth #GaugeLineWidth# | Stroke Color #GaugeLineColor# | Fill Color #GaugeLineFillColor# | StrokeEndCap Round
 GaugeOutlineShadowModifiers= StrokeWidth #GaugeShadowLineWidth# | Stroke Color #GaugeShadowColor# | Fill Color #GaugeLineFillColor# | StrokeEndCap Round

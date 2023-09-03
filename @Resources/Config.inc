@@ -20,10 +20,24 @@ MiscImage=water-temp.png
 ; this value is set by the LMB(plugin) or RMB(registry) on the gear icon in the skin
 HWiNFOSourceType=Plugin
 
+; Color Schemes
+
+; NVIDIA Green
+NVIDIAGreen=118,180,0
+NVIDIAGreen2=118,180,0,200
+
+; AMD Red
+AMDRed=239,7,7
+AMDRed2=239,7,7,200
+
+; Intel Blue
+IntelBlue=18,123,202
+IntelBlue2=18,123,202,200
+
 ; Gauge colors
 BackgroundColor=0,0,0,255
 ; GaugeLineColor=100,100,255
-GaugeLineColor=118,180,0
+GaugeLineColor=#NVIDIAGreen#
 GaugeLineWidth=4
 GaugeLineFillColor=0,0,0
 ; GaugeShadowColor=30,30,128
@@ -31,8 +45,8 @@ GaugeShadowColor=30,60,0
 GaugeShadowLineWidth=10
 ; GaugeRadialFillColor=38,138,252
 ; GaugeRadialFillColor2=38,138,252,140
-GaugeRadialFillColor=118,200,0
-GaugeRadialFillColor2=118,200,0,140
+GaugeRadialFillColor=#NVIDIAGreen#
+GaugeRadialFillColor2=#NVIDIAGreen2#
 
 ; tick lines - redline/overtemp colors
 TickColorPrimary=255,255,255
